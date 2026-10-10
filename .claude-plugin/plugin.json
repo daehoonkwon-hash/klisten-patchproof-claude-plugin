@@ -1,0 +1,25 @@
+{
+  "name": "klisten-patchproof",
+  "version": "0.1.0",
+  "description": "Read the status of an existing PatchProof verification in your organization. Limited review beta; no code execution, uploads, payments or receipt signature verification.",
+  "author": {
+    "name": "Klisten Inc",
+    "email": "klisteninc@gmail.com",
+    "url": "https://klisten.co.kr"
+  },
+  "homepage": "https://klisten.co.kr/docs.html",
+  "license": "UNLICENSED",
+  "privacyPolicyUrl": "https://klisten.co.kr/privacy.html",
+  "termsOfServiceUrl": "https://klisten.co.kr/terms.html",
+  "documentationUrl": "https://klisten.co.kr/docs.html",
+  "userConfig": {
+    "api_key": {
+      "type": "string",
+      "title": "Klisten API key",
+      "description": "Your own API key with verify:read. Never use an operator key.",
+      "required": true,
+      "sensitive": true
+    }
+  },
+  "icon": "./assets/icon.png"
+}
